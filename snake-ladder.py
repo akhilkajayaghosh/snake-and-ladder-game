@@ -115,9 +115,7 @@ def roll_dice():
     is_winner()
 def restart():
     global turn
-    if(turn==2):
-        turn=1
-        print(turn)
+    turn=1
     reset()
     start()
 def is_winner():
